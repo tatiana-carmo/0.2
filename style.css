@@ -1,10 +1,10 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
-
+    --cor-fundo: #0d1b1e;
+    --cor-principal: #1b2e2b;
+    --cor-secundaria: #2d4a43; 
+    --cor-destaque: #39ff14; /* Verde neon vibrante */
+    --cor-detalhe: #ffe600;  /* Amarelo vibrante */
+    --cor-texto: #f0fdf4;
 }
 
 body {
@@ -22,22 +22,15 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 h1{
-    color: var(--cor-destaque);
+    color: var(--cor-detalhe);
 }
 
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
-    border-radius: 15px;
-    padding: 15px;
-    transition: background-color 0.3s;
-}
-
-button:hover{
-    background-color: var(--cor-destaque);
-    color: var(--cor-principal);
-}
+    border-
